@@ -1,0 +1,363 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>NEBULASEO | Kumar 🌌 Casino & Bahis SEO 2026</title>
+  <meta name="description" content="NEBULASEO — uzayın ötesinden gelen SEO gücü. Casino, bahis ve oyun siteleri için nebuladan ilham alan premium stratejiler." />
+  <meta name="keywords" content="NEBULASEO, nebula seo, casino seo, bahis seo, cosmic marketing, galaxy seo" />
+  <meta name="author" content="NEBULASEO" />
+  <link rel="icon" href="/favicon.ico" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Orbitron:wght@600;800&display=swap" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: { inter: ['Inter','sans-serif'], orbitron: ['Orbitron','sans-serif'] },
+          colors: { nebula: "#a855f7", aurora: "#38bdf8", magenta: "#ec4899", deep: "#0b0012" }
+        }
+      }
+    };
+  </script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <style>
+    :root {
+      --nebula-1: #a855f7;
+      --nebula-2: #38bdf8;
+      --nebula-3: #ec4899;
+      --card-bg: rgba(168,85,247,0.08);
+      --card-hover: rgba(168,85,247,0.15);
+      --card-border: rgba(168,85,247,0.25);
+      --glow: rgba(168,85,247,0.45);
+    }
+
+    html, body {
+      margin: 0;
+      height: 100%;
+      color: #f3f3ff;
+      font-family: Inter, system-ui, sans-serif;
+      background: radial-gradient(circle at 20% 30%, rgba(168,85,247,0.25), transparent 60%),
+                  radial-gradient(circle at 80% 70%, rgba(56,189,248,0.2), transparent 70%),
+                  radial-gradient(circle at 50% 50%, rgba(236,72,153,0.2), transparent 60%),
+                  linear-gradient(180deg, #0b0012 0%, #060012 100%);
+      background-attachment: fixed;
+      overflow-x: hidden;
+      scroll-behavior: smooth;
+    }
+
+    /* Floating nebula particle layers */
+    .nebula, .nebula2, .nebula3 {
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      z-index: -1;
+      mix-blend-mode: screen;
+      background-repeat: repeat;
+    }
+
+    .nebula {
+      background-image: radial-gradient(rgba(168,85,247,0.25) 1px, transparent 2px);
+      background-size: 60px 60px;
+      animation: drift 100s linear infinite;
+    }
+
+    .nebula2 {
+      background-image: radial-gradient(rgba(56,189,248,0.18) 1px, transparent 3px);
+      background-size: 120px 120px;
+      animation: drift 160s linear infinite reverse;
+    }
+
+    .nebula3 {
+      background-image: radial-gradient(rgba(236,72,153,0.15) 1px, transparent 4px);
+      background-size: 240px 240px;
+      animation: drift 220s linear infinite;
+    }
+
+    @keyframes drift {
+      from { transform: translateY(0); }
+      to { transform: translateY(-300px); }
+    }
+
+    /* Luminous fog overlay */
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      background: radial-gradient(circle at 40% 50%, rgba(168,85,247,0.12), transparent 60%),
+                  radial-gradient(circle at 70% 80%, rgba(236,72,153,0.1), transparent 70%),
+                  radial-gradient(circle at 20% 90%, rgba(56,189,248,0.1), transparent 80%);
+      mix-blend-mode: screen;
+      z-index: -1;
+      animation: pulse 12s ease-in-out infinite alternate;
+    }
+
+    @keyframes pulse {
+      from { opacity: 0.5; transform: scale(1); }
+      to { opacity: 0.8; transform: scale(1.05); }
+    }
+
+    /* UI styles */
+    .glass {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      backdrop-filter: blur(10px);
+      transition: .3s;
+    }
+    .glass:hover {
+      background: var(--card-hover);
+      border-color: var(--nebula-1);
+      box-shadow: 0 0 25px var(--glow);
+    }
+
+    .btn-nebula {
+      background: linear-gradient(90deg, var(--nebula-1), var(--nebula-2));
+      color: #fff;
+      font-weight: 700;
+      box-shadow: 0 0 25px var(--glow);
+      transition: .3s;
+    }
+    .btn-nebula:hover {
+      transform: translateY(-3px) scale(1.05);
+      filter: brightness(1.15);
+    }
+
+    .accent-underline::after {
+      content:"";
+      position:absolute;
+      left:0; right:0; bottom:-6px;
+      height:5px;
+      background:linear-gradient(90deg,var(--nebula-1),var(--nebula-3));
+      border-radius:8px;
+      filter:blur(6px);
+    }
+  </style>
+</head>
+<body class="overflow-x-hidden">
+  <!-- Floating cosmic layers -->
+  <div class="nebula"></div>
+  <div class="nebula2"></div>
+  <div class="nebula3"></div>
+<!-- HEADER -->
+<header class="sticky top-0 z-40 py-4 bg-deep/80 backdrop-blur-md border-b border-purple-500/20">
+  <div class="container mx-auto px-6 flex items-center justify-between">
+    <div class="flex items-center gap-4">
+      <div class="text-3xl">🌌</div>
+      <div>
+        <div class="text-white font-orbitron text-xl font-extrabold tracking-wide">NEBULASEO</div>
+        <div class="text-xs text-purple-300 -mt-1">Cosmic SEO Strategies • 2025</div>
+      </div>
+    </div>
+    <nav class="hidden md:flex items-center gap-6 text-sm font-semibold text-gray-300">
+      <a href="#hero" class="hover:text-purple-400">Ana Sayfa</a>
+      <a href="#hizmetler" class="hover:text-purple-400">Hizmetler</a>
+      <a href="#analiz" class="hover:text-purple-400">SEO Analiz</a>
+      <a href="#nedenbiz" class="hover:text-purple-400">Neden Biz</a>
+      <a href="#referanslar" class="hover:text-purple-400">Referanslar</a>
+      <a href="#sss" class="hover:text-purple-400">SSS</a>
+      <a href="#iletisim" class="hover:text-purple-400">İletişim</a>
+    </nav>
+    <div class="flex items-center gap-3">
+      <a href="#iletisim" class="btn-nebula px-5 py-2 rounded-full text-sm">Teklif Al</a>
+      <button id="menu-toggle" class="md:hidden text-gray-200 text-2xl">☰</button>
+    </div>
+  </div>
+  <div id="mobile-menu" class="hidden md:hidden bg-black/80 mt-3 rounded-lg mx-4">
+    <div class="px-6 py-4 space-y-2 text-gray-200 font-medium">
+      <a href="#hero" class="block">Ana Sayfa</a>
+      <a href="#hizmetler" class="block">Hizmetler</a>
+      <a href="#analiz" class="block">SEO Analiz</a>
+      <a href="#nedenbiz" class="block">Neden Biz</a>
+      <a href="#referanslar" class="block">Referanslar</a>
+      <a href="#sss" class="block">SSS</a>
+      <a href="#iletisim" class="block">İletişim</a>
+    </div>
+  </div>
+</header>
+<script>
+document.getElementById('menu-toggle').addEventListener('click',()=>document.getElementById('mobile-menu').classList.toggle('hidden'));
+</script>
+
+<!-- HERO -->
+<section id="hero" class="relative pt-28 pb-28 overflow-hidden text-center">
+  <div class="container mx-auto px-6 relative z-10">
+    <div class="inline-block mb-4 px-4 py-1 rounded-full glass text-sm text-purple-200 font-semibold">
+      🚀 2025 • Cosmic SEO Evrimine Katıl
+    </div>
+    <h1 class="font-orbitron text-5xl md:text-6xl font-extrabold leading-tight text-white mb-6">
+      <span class="relative accent-underline">NEBULASEO</span> ile Görünürlüğün Yeni Boyutu
+    </h1>
+    <p class="text-lg md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto">
+      Casino ve bahis siteleri için evrenin derinliklerinden gelen SEO stratejileri.  
+      Enerji alanını optimize et, trafik galaksine yüksel!
+    </p>
+    <div class="flex justify-center gap-4 flex-wrap">
+      <a href="#analiz" class="btn-nebula px-6 py-3 rounded-full inline-flex items-center gap-2 text-lg">
+        🌠 Ücretsiz SEO Analizi
+      </a>
+      <a href="#iletisim" class="px-6 py-3 rounded-full border border-purple-400/30 text-gray-200 hover:border-purple-400 transition text-sm">
+        İletişime Geç
+      </a>
+    </div>
+    <div class="mt-10 grid grid-cols-1 md:grid-cols-3 gap-4">
+      <div class="glass rounded-lg px-4 py-3 text-sm text-purple-200">⚡ 3–8 Hafta Sonuç</div>
+      <div class="glass rounded-lg px-4 py-3 text-sm text-purple-200">🛡️ Gizlilik & Güvenli SEO</div>
+      <div class="glass rounded-lg px-4 py-3 text-sm text-purple-200">📈 ROI Odaklı Strateji</div>
+    </div>
+  </div>
+</section>
+
+<!-- MARQUEE / TESTIMONIALS -->
+<div class="relative z-20 flex justify-center px-4 mt-6 mb-8">
+  <div class="glass rounded-full px-6 py-3 max-w-5xl w-full h-16 shadow-lg text-center overflow-hidden">
+    <div id="quotes" class="relative h-full text-gray-100 text-sm flex items-center justify-center">
+      <span id="quoteText">💬 “Galaktik trafik artışı, inanılmaz sonuçlar!”</span>
+    </div>
+  </div>
+</div>
+<script>
+const q = document.getElementById('quoteText');
+const quotes = [
+  "💬 “Galaktik trafik artışı, inanılmaz sonuçlar!”",
+  "💬 “NEBULASEO ile 3 haftada SERP yıldızına çıktık.”",
+  "💬 “Backlink gücü ve enerjisi mükemmel!”",
+  "💬 “ROI %70 arttı, SEO enerjimiz parladı.”",
+  "💬 “Evrenin en iyi SEO ajansı!”"
+];
+let qi = 0;
+setInterval(()=>{
+  qi=(qi+1)%quotes.length;
+  q.style.opacity=0;
+  setTimeout(()=>{ q.textContent=quotes[qi]; q.style.opacity=1; },400);
+},4000);
+</script>
+
+<!-- HİZMETLER -->
+<section id="hizmetler" class="relative py-24 border-t border-purple-500/10 text-center">
+  <div class="container mx-auto px-6">
+    <h2 class="font-orbitron text-4xl font-extrabold text-white mb-4">🌟 Kozmik Hizmetler</h2>
+    <p class="text-gray-300 text-lg mb-12 max-w-3xl mx-auto">
+      Her proje için evrenin enerjisini kullanan özelleştirilmiş SEO çözümleri.
+    </p>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div class="glass p-8 rounded-2xl text-left">
+        <div class="text-3xl mb-4">🔍</div>
+        <h3 class="text-xl font-bold text-white mb-2">Teknik SEO Denetimi</h3>
+        <p class="text-gray-300 text-sm">Site altyapınızı ışık hızında analiz ederek maksimum performans sağlar.</p>
+      </div>
+      <div class="glass p-8 rounded-2xl text-left">
+        <div class="text-3xl mb-4">🧠</div>
+        <h3 class="text-xl font-bold text-white mb-2">İçerik Kümeleri</h3>
+        <p class="text-gray-300 text-sm">Casino ve bahis evrenine uygun içerik stratejileri oluşturur.</p>
+      </div>
+      <div class="glass p-8 rounded-2xl text-left">
+        <div class="text-3xl mb-4">🔗</div>
+        <h3 class="text-xl font-bold text-white mb-2">Backlink Ağları</h3>
+        <p class="text-gray-300 text-sm">Yüksek enerjili backlink kaynakları ile görünürlüğünüzü artırır.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- NEDEN BİZ -->
+<section id="nedenbiz" class="relative py-24 border-t border-purple-500/10 text-center">
+  <div class="container mx-auto px-6">
+    <h2 class="font-orbitron text-4xl font-extrabold text-white mb-4">🌌 Neden NEBULASEO?</h2>
+    <p class="text-gray-300 text-lg mb-12 max-w-3xl mx-auto">
+      Uzayın ötesindeki SEO gücüyle fark yaratın.  
+      Strateji, şeffaflık ve veri odaklı enerjiyle büyüyoruz.
+    </p>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+      <div class="glass p-8 rounded-2xl">
+        <div class="text-4xl mb-3">🛰️</div>
+        <h3 class="text-lg font-bold mb-2 text-white">Veri Odaklı Stratejiler</h3>
+        <p class="text-gray-300 text-sm">Her karar galaktik verilerle desteklenir. Tahmin değil, kanıt!</p>
+      </div>
+      <div class="glass p-8 rounded-2xl">
+        <div class="text-4xl mb-3">💎</div>
+        <h3 class="text-lg font-bold mb-2 text-white">Premium Kalite</h3>
+        <p class="text-gray-300 text-sm">Özel backlink ağları ve premium içerik ekosistemiyle fark yaratır.</p>
+      </div>
+      <div class="glass p-8 rounded-2xl">
+        <div class="text-4xl mb-3">🔭</div>
+        <h3 class="text-lg font-bold mb-2 text-white">Uzman Ekip</h3>
+        <p class="text-gray-300 text-sm">Her biri SEO evreninde deneyimli stratejistler sizinle.</p>
+      </div>
+      <div class="glass p-8 rounded-2xl">
+        <div class="text-4xl mb-3">🧩</div>
+        <h3 class="text-lg font-bold mb-2 text-white">Tam Entegrasyon</h3>
+        <p class="text-gray-300 text-sm">Casino, bahis, oyun ve affiliate sistemlerine özel entegrasyon.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- REFERANSLAR -->
+<section id="referanslar" class="relative py-24 border-t border-purple-500/10 text-center">
+  <div class="container mx-auto px-6">
+    <h2 class="font-orbitron text-4xl font-extrabold text-white mb-4">🚀 Referans Galaksisi</h2>
+    <p class="text-gray-300 mb-12 max-w-3xl mx-auto">
+      Evrenin dört bir yanından markalar NEBULASEO ile yükseliyor.
+    </p>
+    <div class="flex flex-wrap justify-center gap-8 opacity-90">
+      <div class="glass px-10 py-6 rounded-xl text-lg text-purple-300 font-bold">CasinoNova</div>
+      <div class="glass px-10 py-6 rounded-xl text-lg text-purple-300 font-bold">BetGalaxy</div>
+      <div class="glass px-10 py-6 rounded-xl text-lg text-purple-300 font-bold">SpinVerse</div>
+      <div class="glass px-10 py-6 rounded-xl text-lg text-purple-300 font-bold">LunaBet</div>
+      <div class="glass px-10 py-6 rounded-xl text-lg text-purple-300 font-bold">StarPlay</div>
+    </div>
+  </div>
+</section>
+
+<!-- SSS -->
+<section id="sss" class="relative py-24 border-t border-purple-500/10">
+  <div class="container mx-auto px-6 max-w-4xl">
+    <h2 class="font-orbitron text-4xl font-extrabold text-white text-center mb-12">💫 Sıkça Sorulan Sorular</h2>
+    <div class="space-y-4">
+      <details class="glass rounded-xl p-6">
+        <summary class="text-lg font-semibold cursor-pointer text-purple-300">NEBULASEO hangi sektörlere hizmet veriyor?</summary>
+        <p class="text-gray-300 mt-3">Casino, bahis, oyun, finans ve affiliate sektörlerinde uzmanlaşmış durumdayız.</p>
+      </details>
+      <details class="glass rounded-xl p-6">
+        <summary class="text-lg font-semibold cursor-pointer text-purple-300">SEO sonuçlarını ne kadar sürede görebilirim?</summary>
+        <p class="text-gray-300 mt-3">Genellikle 3–8 hafta içerisinde SERP sonuçlarında yükselme gözlenir.</p>
+      </details>
+      <details class="glass rounded-xl p-6">
+        <summary class="text-lg font-semibold cursor-pointer text-purple-300">Backlinkler güvenli mi?</summary>
+        <p class="text-gray-300 mt-3">Evet. Tüm backlink kaynaklarımız manuel, sektör uyumlu ve güvenli yapılardan gelir.</p>
+      </details>
+      <details class="glass rounded-xl p-6">
+        <summary class="text-lg font-semibold cursor-pointer text-purple-300">Fiyatlandırma nasıl belirleniyor?</summary>
+        <p class="text-gray-300 mt-3">Analiz sonrası projenizin zorluk seviyesine göre özel teklif sunulur.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- İLETİŞİM -->
+<section id="iletisim" class="relative py-24 border-t border-purple-500/10 text-center">
+  <div class="container mx-auto px-6">
+    <h2 class="font-orbitron text-4xl font-extrabold text-white mb-4">🚀 Ücretsiz SEO Analizi</h2>
+    <p class="text-gray-300 mb-12 max-w-3xl mx-auto">
+      Projenizi gönderin, evrenin verileri ile derin analiz yapalım.  
+      Potansiyelinizi gökyüzüne taşıyın!
+    </p>
+    <form class="max-w-2xl mx-auto text-left glass p-8 rounded-2xl space-y-4">
+      <input type="text" placeholder="Proje Adı veya Alan Adı" class="w-full px-4 py-3 rounded-lg bg-black/60 text-gray-200 border border-purple-400/20 focus:border-purple-400 outline-none">
+      <input type="email" placeholder="E-posta adresiniz" class="w-full px-4 py-3 rounded-lg bg-black/60 text-gray-200 border border-purple-400/20 focus:border-purple-400 outline-none">
+      <textarea rows="4" placeholder="Proje detaylarınız..." class="w-full px-4 py-3 rounded-lg bg-black/60 text-gray-200 border border-purple-400/20 focus:border-purple-400 outline-none"></textarea>
+      <button type="submit" class="btn-nebula w-full py-3 rounded-lg text-lg">Analiz Başlat</button>
+    </form>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="border-t border-purple-500/10 py-10 text-center text-sm text-gray-400">
+  <div class="container mx-auto px-6">
+    <p>© 2025 <span class="text-purple-400 font-semibold">NEBULASEO</span>. Tüm hakları saklıdır.</p>
+    <p class="mt-2 text-xs">Made in 🌌 Cosmos</p>
+  </div>
+</footer>
+
+</body>
+</html>
